@@ -1,0 +1,23 @@
+●write function zipper that takes two lists and make a list of pairs of their elements
+zipper ([1,2,3], ['a','b','c'])
+output=[(1,'a'),(2,'b'),(3,'c')]
+zipper ([4,3,2,1], "hello")
+output=[(4,'h'),(3,'e'),(2,'l'),(1,'l')]
+zipper ([], "functional")
+output=[]
+zipper ([1,2,3], [])
+output=[]
+zipper ([1,1.5,2], [2.5,3,3.5,3])
+output=[(1,2.5),(1.5,3),(2,3.5)]
+
+●what's the type of zipper?
+//function zipper คืนค่าเป็นlistของคู่อันดับ (a, b) จาก list สอง list ที่รับเข้ามา
+
+●write function rev that reverses a given list
+rev "hello"
+output="olleh"
+rev [1,2,3,4,5]
+output=[5,4,3,2,1]
+
+●what's the type of rev?
+//function นี้รับ list ที่มีชนิด a และคืนค่าlistชนิดเดียวกันแต่เรียงลำดับใหม่จากหลังไปหน้า
